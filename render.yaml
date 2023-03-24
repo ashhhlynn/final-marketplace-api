@@ -1,7 +1,7 @@
 databases:
   - name: final-marketplace-api
-    databaseName: final-marketplace-api
-    user: final-marketplace-api
+    databaseName: final_marketplace_api
+    user: final_marketplace_api
 
 services:
   - type: web
