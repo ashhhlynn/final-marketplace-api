@@ -1,11 +1,11 @@
 databases:
-  - name: seedlink
-    databaseName: seedlink
-    user: seedlink
+  - name: final-marketplace-api
+    databaseName: final-marketplace-api
+    user: final-marketplace-api
 
 services:
   - type: web
-    name: seedlink
+    name: final-marketplace-api
     env: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
