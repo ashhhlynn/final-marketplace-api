@@ -17,7 +17,8 @@ services:
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
-Make sure all your files are saved and commit and push your changes to your repository on GitHub.
+
+Make sure all your files are saved and commit and push your changes to your repository on GitHub.:
 
 9.Now head over to the Render website. On the Render Dashboard navigate to Blueprints and click on ‘New Blueprint Instance’
 
