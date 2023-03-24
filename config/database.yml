@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: final_marketplace_api_production
-  username: final_marketplace_api
-  password: <%= ENV['FINAL_MARKETPLACE_API_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
