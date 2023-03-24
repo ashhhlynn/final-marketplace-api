@@ -27,7 +27,7 @@ If you haven’t connected your GitHub account to Render already, this is the ti
 
 
 Search for your GitHub repo on Render:
-Here enter your unique service group name: (your app name is fine):
+Here enter your unique service group name: (your app name is fine)
 
 
 After that in the deploy window below, set the value of the RAILS_MASTER_KEY to the contents of your config/master.key file. Then click Apply:
