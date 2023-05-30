@@ -7,7 +7,7 @@ class OrdersController < ApplicationController
  
     def create
         @order = Order.create(order_params)
-        render json: @order
+        render json: @order, status: :created
     end
  
     def update
