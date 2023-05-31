@@ -4,7 +4,7 @@ Dotenv.load
 
 class ChargesController < ApplicationController
 
-    skip_before_action :authorize
+    skip_before_action :authorized
 
     def create
        amount = params[:price]
@@ -23,5 +23,5 @@ class ChargesController < ApplicationController
      rescue Stripe::CardError => e
          render json: { error: e.message }, status: :unprocessable_entity
      end
-     
+
 end
