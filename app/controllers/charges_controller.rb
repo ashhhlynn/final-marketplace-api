@@ -4,7 +4,7 @@ Dotenv.load
 
 class ChargesController < ApplicationController
 
-    skip_before_action :authorized
+    skip_before_action :authorized, only: [:create]
 
     def create
        amount = params[:price]
