@@ -3,7 +3,7 @@ require 'dotenv'
 Dotenv.load
 
 class ChargesController < ApplicationController
-    skip_before_action :authorize
+    skip_before_action :authorized
     def create
        amount = params[:price]
        token = params[:charge][:token]
