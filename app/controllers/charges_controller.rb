@@ -7,7 +7,7 @@ class ChargesController < ApplicationController
     def create
        amount = params[:price]
        token = params[:charge][:token]
-       Stripe.api_key = pk_live_51MxwZpLMhdX9PVRjJRh9doU6tS7oXnozPlYIfdJS3PeqIiqKdPgIKOd3JsepVrp7zYBLtHCnUzYZiZscfduAVF1S00vjZPqb8g
+       Stripe.api_key = "pk_live_51MxwZpLMhdX9PVRjJRh9doU6tS7oXnozPlYIfdJS3PeqIiqKdPgIKOd3JsepVrp7zYBLtHCnUzYZiZscfduAVF1S00vjZPqb8g"
        charge = Stripe::Charge.create(
              amount: amount,
              currency: 'usd',
