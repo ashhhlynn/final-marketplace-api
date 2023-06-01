@@ -12,7 +12,7 @@ A buy and sell ecommerce application for plants created with a Redux & React Jav
 
 - Users can add and remove items from a shopping cart. 
 
-- Users can add and remove items at checkout, place orders powered through Stripe API.
+- Users can add and remove items at checkout, and place orders powered through Stripe API.
 
 - Users can edit their Account information from both their user profile and checkout.
 
@@ -65,24 +65,25 @@ A buy and sell ecommerce application for plants created with a Redux & React Jav
 
 ## Instructions
 
-- clone this repository to your local environment -- git clone < git repository >
+- clone this repository to your local environment 
 
-- run $bundle install - installs gems and dependencies
+- cd into the repo
 
-- run $rails db:create - creates the database for the first time, or try $rails db:reset
+- run bundle install 
 
-- run $rails db:migrate - creates the tables for the database
+- run rails db:create (or try rails db:reset)
+
+- run rails db:migrate 
   
-- run rails s to start the server
+- run rails s 
 
-- clone the frontend repository: https://github.com/ashhhlynn/final-marketplace-frontend to your local environment -- 
-  git clone < git repository >
+- clone the frontend repository: https://github.com/ashhhlynn/final-marketplace-frontend
   
-- cd(change directory) into the repo
+- cd into the repo
 
-- run $'npm install' into your command line
+- run npm install 
 
-- run $'npm start' into your command line
+- run npm start
 
 
 
