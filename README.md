@@ -52,6 +52,7 @@ A buy and sell ecommerce application for plants created with a Redux & React Jav
 
 - Ruby 
 - Rails
+- JavaScript
 - React
 - Redux
 - Semantic UI React
