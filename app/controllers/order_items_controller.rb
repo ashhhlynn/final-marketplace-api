@@ -16,7 +16,7 @@ class OrderItemsController < ApplicationController
     end
 
     def destroy
-        order_item = OrderItem.find_by(product_id: params[:id])
+        order_item = OrderItem.find_by(id: params[:id])
         order_item.destroy
         head :no_content, status: :ok
     end
