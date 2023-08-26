@@ -54,12 +54,6 @@
 - React Router
 
 ## Setup
-- ` clone < this repo > `
-- ` cd < this repo > `
-- ` bundle install `
-- ` rake db:create `
-- ` rake db:migrate `
-- ` rails s `
 - ` clone https://github.com/ashhhlynn/final-marketplace-frontend `
 - ` cd final-marketplace-frontend `
 - ` npm install `
