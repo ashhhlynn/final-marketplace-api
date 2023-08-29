@@ -2,10 +2,10 @@
 > A buy and sell ecommerce application for plants created with a Redux & React JavaScript frontend and a Rails API backend. Users can sell or purchase plants from other users by adding items to a shopping cart and submitting orders at checkout. Styled with Semantic UI React and CSS. 
   
 ## Features
-- Users can create accounts & sign in, authenticated and authorized through BCrypt and JWT
+- Create accounts and sign in
 - View product index and sort by price & alphabetical order
-- Add & remove items from a shopping cart
-- Ability to add & remove items at checkout, and place orders powered through Stripe API
+- Add and remove items from a shopping cart
+- Ability to add and remove items at checkout, and place orders powered through Stripe API
 - Edit account information from both user profile and checkout
 - View history of their orders and created products marked as active and sold, ability to edit & delete
 
