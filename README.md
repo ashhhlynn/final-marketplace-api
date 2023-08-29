@@ -3,7 +3,7 @@
   
 ## Features
 - Create accounts and sign in
-- View product index and sort by price & alphabetical order
+- View product index and sort by name, price, and alphabetical order
 - Add and remove items from a shopping cart
 - Ability to add and remove items at checkout, and place orders powered through Stripe API
 - Edit account information from both user profile and checkout
