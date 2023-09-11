@@ -1,5 +1,5 @@
 # Seedlink 
-> A buy and sell e-commerce application for plants created with a JavaScript React & Redux frontend and a Ruby on Rails backend. Users can sell or purchase plants from other users by adding items to a shopping cart and submitting orders at checkout. Styled with Semantic UI React and CSS. 
+> A buy and sell e-commerce application for plants built with a JavaScript React & Redux front end and a Ruby on Rails back end. Users can sell or purchase plants from other users by adding to a shopping cart and submitting orders at checkout. Styled with Semantic UI React and CSS. 
   
 ## Features
 - Create accounts and sign in
