@@ -4,12 +4,13 @@
 > Check out the <a href="https://seedlink.netlify.app/">live</a> and <a href="https://vimeo.com/863265175/f85d25b2e3">video</a> demos or the <a href="https://github.com/ashhhlynn/final-marketplace-frontend">front end</a> repo.
 
 ## Features
-- Create accounts and sign in
+- Register and sign in via BCrypt, JWT, and localStorage
 - View product index and sort by price and alphabetical order
 - Add and remove items from a shopping cart
-- Ability to add and remove items at checkout, and place orders powered through Stripe API
+- Ability to add and remove items at checkout, and place orders secured through Stripe API
 - Edit account information from both user profile and checkout
-- View history of their orders and created products marked as active and sold with ability to edit and delete
+- View history of order invoices
+- View, edit, and delete created products marked as active and sold
 
 ## Media 
 ### Home
@@ -39,7 +40,7 @@
 - Semantic UI React
 - HTML & CSS
 - PostgreSQL
-- BCrypt and JWT 
+- BCrypt, JWT, localStorage 
 - Stripe API
 - rack-cors 
 - active_model_serializers
