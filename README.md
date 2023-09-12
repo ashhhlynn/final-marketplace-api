@@ -47,7 +47,7 @@
 - React Router
 
 ## Setup
-- ` git clone https://github.com/ashhhlynn/final-marketplace-frontend `
+- ` git clone git@github.com:ashhhlynn/final-marketplace-frontend.git `
 - ` cd final-marketplace-frontend `
 - ` npm install `
 - ` npm start `
