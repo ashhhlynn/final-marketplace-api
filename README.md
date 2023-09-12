@@ -40,10 +40,10 @@
 - Semantic UI React
 - HTML & CSS
 - PostgreSQL
-- BCrypt, JWT, localStorage 
+- BCrypt Gem, JWT, localStorage 
 - Stripe API
-- rack-cors 
-- active_model_serializers
+- Dotenv Gem 
+- Active Model Serializers
 - React Router
 
 ## Setup
