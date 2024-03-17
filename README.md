@@ -8,6 +8,18 @@ A buy and sell e-commerce application for plants built with a JavaScript and Rea
 </table>
 Check out the <a href="https://seedlink.netlify.app/">live</a> and <a href="https://vimeo.com/923620570/fe65a6381c">video</a> demos or the <a href="https://github.com/ashhhlynn/final-marketplace-frontend">front end</a> repo.
 
+## Technology Used
+- Ruby on Rails
+- PostgreSQL
+- React.js
+- Redux
+- React Router
+- BCrypt Gem, JWT, localStorage 
+- Stripe API
+- Dotenv Gem 
+- HTML & CSS
+- Semantic UI React
+  
 ## Features
 - Register and log in authenticated through BCrypt, JWT, and localStorage
 - Create plant products to sell, and view, update, or remove inventory
@@ -31,20 +43,6 @@ Check out the <a href="https://seedlink.netlify.app/">live</a> and <a href="http
 
 ### Inventory
 ![Screenshot (189)](https://github.com/ashhhlynn/final-marketplace-api/assets/84604278/33efb745-9389-4378-bd0b-e99a8ea19be5)
-
-## Technology Used
-- Ruby 
-- Rails
-- JavaScript
-- React
-- Redux
-- React Router
-- Semantic UI React
-- HTML & CSS
-- PostgreSQL
-- BCrypt Gem, JWT, localStorage 
-- Stripe API
-- Dotenv Gem 
 
 ## Setup
 - ` git clone git@github.com:ashhhlynn/final-marketplace-frontend.git `
