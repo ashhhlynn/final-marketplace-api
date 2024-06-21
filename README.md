@@ -1,53 +1,55 @@
 # Seedlink 
-> A buy and sell e-commerce application for plants created with a JavaScript React & Redux frontend and a Ruby on Rails backend. Users can sell or purchase plants from other users by adding items to a shopping cart and submitting orders at checkout. Styled with Semantic UI React and CSS. 
-  
-## Features
-- Create accounts and sign in
-- View product index and sort by price and alphabetical order
-- Add and remove items from a shopping cart
-- Ability to add and remove items at checkout, and place orders powered through Stripe API
-- Edit account information from both user profile and checkout
-- View history of their orders and created products marked as active and sold with ability to edit and delete
-
-## Media 
-### Home
-<img width="800" height="400" src="https://user-images.githubusercontent.com/84604278/227614097-af76bb6b-c356-41e9-af10-7b5d6bd35670.png">
-
-### Product Index
-<img width="800" height="400" src="https://user-images.githubusercontent.com/84604278/227587296-1b5871f0-92c5-4792-9dce-05451fc0a441.png">
-
-### Shopping Cart
-<img width="800" height="385" src="https://user-images.githubusercontent.com/84604278/227553772-03604489-1ec3-4fe1-b4db-fce11467b7e9.png">
-
-### Checkout
-<img width="800" height="385" src="https://user-images.githubusercontent.com/84604278/227588119-b350aded-1532-4dba-b680-306d5051dc38.png">
-
-### Inventory
-<img width="800" height="400" src="https://user-images.githubusercontent.com/84604278/227588163-8506c97b-7f7a-44e8-8dcf-5fdc4dbf482e.png">
-
-### Create Plant
-<img width="800" height="400" src="https://user-images.githubusercontent.com/84604278/227554530-7ee3ecb7-4c73-4f7b-b88e-cd86994f3228.png">
+<table>
+<tr>
+<td>
+A buy and sell e-commerce application for plants built with a JavaScript and React front end and a Ruby on Rails with PostgreSQL database back end. Users can sell or purchase plants from other users by adding to a shopping cart and submitting orders at checkout. 
+</td>
+</tr>
+</table>
+Check out the <a href="https://seedlink.netlify.app/">live</a> and <a href="https://vimeo.com/923620570/fe65a6381c">video</a> demos or the <a href="https://github.com/ashhhlynn/final-marketplace-frontend">front end</a> repo.
 
 ## Technology Used
-- Ruby 
-- Rails
-- JavaScript
-- React
-- Redux
-- Semantic UI React
-- HTML & CSS
+- Ruby on Rails
 - PostgreSQL
-- BCrypt and JWT 
-- Stripe API
-- rack-cors 
-- active_model_serializers
+- React.js
+- Redux
 - React Router
+- BCrypt Gem, JWT, localStorage 
+- Stripe API
+- Dotenv Gem 
+- HTML & CSS
+- Semantic UI React
+- Netlify & Render
+  
+## Features
+- Register and log in authenticated through BCrypt, JWT, and localStorage
+- Create plant products to sell, and view, update, or remove inventory
+- View product index and sort by price and alphabetical order
+- Add (and remove) items from product index to shopping cart
+- Place orders at checkout authorized with Stripe API 
+- Update account and shipping information at checkout or profile page
+- View history of order invoices at profile page 
+## Media 
+### Create Plant
+![Screenshot (188)](https://github.com/ashhhlynn/final-marketplace-api/assets/84604278/7c480060-a9c7-477d-a924-2a57ca2beeff)
+
+### Product Index
+![Screenshot (154)](https://github.com/ashhhlynn/final-marketplace-frontend/assets/84604278/2bb955fe-8166-4223-8beb-3c370fb890a9)
+
+### Shopping Cart
+![Screenshot (155)](https://github.com/ashhhlynn/final-marketplace-frontend/assets/84604278/3b28bdfa-68c4-4fc9-b720-c4ac64b09730)
+
+### Checkout
+![Screenshot (156)](https://github.com/ashhhlynn/final-marketplace-frontend/assets/84604278/b07a916d-24fa-4d23-a6ce-f74a38dd905f)
+
+### Inventory
+![Screenshot (189)](https://github.com/ashhhlynn/final-marketplace-api/assets/84604278/33efb745-9389-4378-bd0b-e99a8ea19be5)
 
 ## Setup
-- ` git clone https://github.com/ashhhlynn/final-marketplace-frontend `
+- ` git clone git@github.com:ashhhlynn/final-marketplace-frontend.git `
 - ` cd final-marketplace-frontend `
 - ` npm install `
 - ` npm start `
 
-## Acknowledgements
-- This project was created by Ashley
+## License
+This project is MIT licensed. 
