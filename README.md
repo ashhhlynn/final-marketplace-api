@@ -30,9 +30,6 @@ Check out the <a href="https://seedlink.netlify.app/">live</a> and <a href="http
 - Update account and shipping information at checkout or profile page
 - View history of order invoices at profile page 
 ## Media 
-### Create Plant
-![Screenshot (188)](https://github.com/ashhhlynn/final-marketplace-api/assets/84604278/7c480060-a9c7-477d-a924-2a57ca2beeff)
-
 ### Product Index
 ![Screenshot (154)](https://github.com/ashhhlynn/final-marketplace-frontend/assets/84604278/2bb955fe-8166-4223-8beb-3c370fb890a9)
 
@@ -43,7 +40,7 @@ Check out the <a href="https://seedlink.netlify.app/">live</a> and <a href="http
 ![Screenshot (156)](https://github.com/ashhhlynn/final-marketplace-frontend/assets/84604278/b07a916d-24fa-4d23-a6ce-f74a38dd905f)
 
 ### Inventory
-![Screenshot (189)](https://github.com/ashhhlynn/final-marketplace-api/assets/84604278/33efb745-9389-4378-bd0b-e99a8ea19be5)
+![Screenshot (193)](https://github.com/ashhhlynn/final-marketplace-api/assets/84604278/fcab4e90-4641-4234-92b6-0b5ac86ce426)
 
 ## Setup
 - ` git clone git@github.com:ashhhlynn/final-marketplace-frontend.git `
