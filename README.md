@@ -48,10 +48,10 @@ A buy and sell e-commerce application for plants built with a React.js and Redux
 
 ### Setup
   ```sh
-  $ git clone https://github.com/ashhhlynn/final-marketplace-frontend.git `
+  $ git clone https://github.com/ashhhlynn/final-marketplace-frontend.git 
   ```
   ```sh
-  $ cd final-marketplace-frontend `
+  $ cd final-marketplace-frontend 
   ```
   ```sh
   $ npm install 
