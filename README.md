@@ -34,16 +34,16 @@ A buy and sell e-commerce application for plants built with a React.js and Redux
 - Update account and shipping information at checkout or profile page
 - View history of order invoices at profile page 
 ### Media 
-#### Product Index
+
 ![Screenshot (154)](https://github.com/ashhhlynn/final-marketplace-frontend/assets/84604278/2bb955fe-8166-4223-8beb-3c370fb890a9)
 
-#### Shopping Cart
+
 ![Screenshot (155)](https://github.com/ashhhlynn/final-marketplace-frontend/assets/84604278/3b28bdfa-68c4-4fc9-b720-c4ac64b09730)
 
-#### Checkout
+
 ![Screenshot (156)](https://github.com/ashhhlynn/final-marketplace-frontend/assets/84604278/b07a916d-24fa-4d23-a6ce-f74a38dd905f)
 
-#### Inventory
+
 ![Screenshot (193)](https://github.com/ashhhlynn/final-marketplace-api/assets/84604278/fcab4e90-4641-4234-92b6-0b5ac86ce426)
 
 ### Setup
